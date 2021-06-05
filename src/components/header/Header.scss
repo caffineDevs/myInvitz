@@ -1,0 +1,51 @@
+.zHeader {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  .nav-link.primary-text {
+    margin: 0 1vw;
+  }
+  .dropdown-toggle.nav-link {
+    color: #6c27b3 !important;
+  }
+  .dropdown-item.active,
+  .dropdown-item:active,
+  .dropdown-item:hover,
+  .dropdown-item:focus {
+    background-color: #f3e7ff;
+  }
+  .dropdown-menu {
+    border: 1px solid #f3e7ff;
+  }
+
+  .z-mega-menu {
+    display: none;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 1vw;
+    position: relative;
+    top: -16px;
+    .child-categories {
+      margin-right: 4rem;
+      .heading {
+        font-size: 1vw;
+        font-weight: 600;
+        text-transform: capitalize;
+      }
+      .content {
+        text-transform: capitalize;
+        margin: 10px auto;
+        &:hover {
+          color: #6c27b3;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .z-mega-menu.active {
+    width: 98vw;
+    height: fit-content;
+    background-color: #f3e7ff;
+    display: block;
+  }
+}
